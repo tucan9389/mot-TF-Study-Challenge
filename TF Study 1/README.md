@@ -15,3 +15,11 @@
    [https://github.com/motlabs/mot-dev/blob/180506_tfdata_jhlee/lab11_tfdata_example/data_manager%20(mnist).ipynb](https://github.com/motlabs/mot-dev/blob/180506_tfdata_jhlee/lab11_tfdata_example/data_manager%20(mnist).ipynb)
 3. Learning Tensorflow github : queue, multithread, tf.python_io.Tfrecord<br>
    [https://github.com/Hezi-Resheff/Oreilly-Learning-TensorFlow/tree/master/08__queues_threads](https://github.com/Hezi-Resheff/Oreilly-Learning-TensorFlow/tree/master/08__queues_threads)
+
+### 과제설명
+- `data_manager.py`를 실행하면 됩니다.
+- `data/mnist/` 경로 안에 0~9까지 폴더가 있고, 각각 폴더 안에 `28x28` 손글씨 이미지가 들어있습니다.
+- `data_loader.py`: 이미지 파일들의 경로와 레이블을 가져옵니다.
+- `input_ops.py`: 학습/테스트 데이터로 분리합니다. (`0.8:0.2`)
+- `preprocess_data.py`: 단순 경로 데이터를 실제 데이터(`28x28x1`)로 만들어줍니다.
+- `data_manager.py`에서는 batch 크기씩 나누어 입력 데이터를 제공합니다.
