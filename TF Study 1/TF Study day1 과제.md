@@ -1,10 +1,10 @@
 #### 참고코드
 
-1. 강재욱 github :  data loader (tf.gfile)
+1. 강재욱 github :  data loader (tf.gfile)<br>
    [https://github.com/jwkanggist/tf-cnn-model/blob/master/mnist_data_loader.py](https://github.com/jwkanggist/tf-cnn-model/blob/master/mnist_data_loader.py)
-2. 이준호 github :  data_manager (tf.data)
+2. 이준호 github :  data_manager (tf.data)<br>
    [https://github.com/motlabs/mot-dev/blob/180506_tfdata_jhlee/lab11_tfdata_example/data_manager%20(mnist).ipynb](https://github.com/motlabs/mot-dev/blob/180506_tfdata_jhlee/lab11_tfdata_example/data_manager%20(mnist).ipynb)
-3. Learning Tensorflow github : queue, multithread, tf.python_io.Tfrecord
+3. Learning Tensorflow github : queue, multithread, tf.python_io.Tfrecord<br>
    [https://github.com/Hezi-Resheff/Oreilly-Learning-TensorFlow/tree/master/08__queues_threads](https://github.com/Hezi-Resheff/Oreilly-Learning-TensorFlow/tree/master/08__queues_threads)
 
 #### 참고코드를 이용하여 자신만의 CNN을 위한 MNIST 입력처리 코드를 깃헙에 업로드 하기
