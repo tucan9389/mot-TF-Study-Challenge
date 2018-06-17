@@ -29,7 +29,7 @@ class DataManager(object):
         self.X_train, self.X_test, self.y_train, self.y_test = my_train_test_split(dataset)
 
         self.y_train = np.array([int(y) for y in self.y_train])
-        self.y_test= np.array([int(y) for y in self.y_test])
+        self.y_test  = np.array([int(y) for y in self.y_test])
 
         # 전체 batch 갯수 설정
         self.total_batch = len(self.X_train)/self.batch_size

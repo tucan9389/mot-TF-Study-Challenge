@@ -23,3 +23,24 @@
 - `input_ops.py`: 학습/테스트 데이터로 분리합니다. (`0.8:0.2`)
 - `preprocess_data.py`: 단순 경로 데이터를 실제 데이터(`28x28x1`)로 만들어줍니다.
 - `data_manager.py`에서는 batch 크기씩 나누어 입력 데이터를 제공합니다.
+
+
+
+### 질문
+Q. 과제 구현에서 OneHotEncoder나 train_test_split를 외부 라이브러리를 사용해서 구현해도 되나요?
+
+
+
+Q. numpy.array와 python의 array는 다른 타입인거죠? 차이점이 뭔가요?
+
+
+
+Q. mnist 입력데이터를 가져오는 방식이 이게 맞을까요?
+
+1. 폴더를 탐색해서 `레이블(str type)`과 `이미지 경로(str type)` 를 `np.array` 로 가져와 메모리에 올림
+   ☞ dateset = (전체 데이터 갯수, 2) shape의 np.array 생성
+2. 전체 mnist 데이터를 `train`과 `test`로 나누기
+   ☞ 저는 4:1로 나눔
+3. `get_input_data(batch_index)` 함수로 배치사이즈 만큼 받아옴
+   ☞ 이때 `이미지 경로`를 이용하여 실제 이미지 데이터를 받아옴
+   ☞ 전처리 수행
