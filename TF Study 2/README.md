@@ -15,7 +15,7 @@
    [https://github.com/Hezi-Resheff/Oreilly-Learning-TensorFlow/tree/master/07__abstractions](https://github.com/Hezi-Resheff/Oreilly-Learning-TensorFlow/tree/master/07__abstractions)
 4. Learning Tensorflow github : model exporting<br>
    [https://github.com/Hezi-Resheff/Oreilly-Learning-TensorFlow/blob/master/10__serving/Chapter10.ipynb](https://github.com/Hezi-Resheff/Oreilly-Learning-TensorFlow/blob/master/10__serving/Chapter10.ipynb)
-5. 정찬희님 keras 코드 ([TF vs Keras _Jungchanhee.ipynb](./참고코드/TF vs Keras _Jungchanhee.ipynb))
+5. 정찬희님 keras 코드 ([TF vs Keras _Jungchanhee.ipynb](참고코드/TF%20vs%20Keras%20_Jungchanhee.ipynb))
 
 ### 과제설명
 
