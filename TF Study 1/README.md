@@ -32,7 +32,8 @@ Q. 과제 구현에서 OneHotEncoder나 train_test_split를 외부 라이브러�
 
 
 Q. numpy.array와 python의 array는 다른 타입인거죠? 차이점이 뭔가요?
-
+- 아래 문서 참고 
+    - https://goo.gl/mzzRkP 
 
 
 Q. mnist 입력데이터를 가져오는 방식이 이게 맞을까요?

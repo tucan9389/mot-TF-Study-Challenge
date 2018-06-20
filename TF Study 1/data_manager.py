@@ -1,4 +1,7 @@
-
+#-*- coding: utf-8 -*-
+#! /usr/bin/env python
+# ------------
+# 한글 주석을 달려면 위 전처리기 필요
 
 from data_loader import my_read_dataset_path_and_label
 from input_ops import my_train_test_split
@@ -59,7 +62,7 @@ batch_idx = 0
 idx = 2
 
 
-data_manager = DataManager('data/mnist/')
+data_manager = DataManager('./data/mnist/')
 data_manager.prepare_data()
 X, y = data_manager.get_input_data(batch_idx)
 
