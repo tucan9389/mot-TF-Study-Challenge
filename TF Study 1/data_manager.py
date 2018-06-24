@@ -24,12 +24,11 @@ class DataManager(object):
     def prepare_data(self):
         # dataset 읽어오기
         dataset = my_read_dataset_path_and_label(self.dataset_path)
+        print("-------------------------------------")
+        print(dataset)
 
         # train, test로 나누기
         self.X_train, self.X_test, self.y_train, self.y_test = my_train_test_split(dataset)
-
-        self.y_train = np.array([int(y) for y in self.y_train])
-        self.y_test  = np.array([int(y) for y in self.y_test])
 
         # 전체 batch 갯수 설정
         self.total_batch = len(self.X_train)/self.batch_size
@@ -43,7 +42,7 @@ class DataManager(object):
         X = self.X_train[start_index:start_index+self.batch_size]
         y = self.y_train[start_index:start_index + self.batch_size]
 
-        one_batch_X = np.zeros((self.batch_size, self.data_width, self.data_height, self.data_channel))
+        one_batch_X = np.zeros(shape=(self.batch_size, self.data_width, self.data_height, self.data_channel))
 
         for i in range(self.batch_size):
             one_batch_X[i] = get_image_data(self.dataset_path + X[i], self.data_width, self.data_height, self.data_channel)
